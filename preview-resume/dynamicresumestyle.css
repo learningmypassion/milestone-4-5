@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  .header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    top: 80 px;
+    left: 65 px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px gray(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+    user-select: none;
+    filter: grayscale(100%);
+  }
+  .header img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px lightgray(0, 0, 0.5);
+  }
+  .header {
+    height: 160px;
+    background-color: #d1eeeb;
+  }
+  .header-text {
+    color: rgb(12, 11, 11);
+    width: 60%;
+    margin-left: 250px;
+  }
+  .header-text h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin: 40px;
+  }
+  .header-text p {
+    font-size: 22px;
+    color: rgb(17, 17, 17);
+    margin: 39px;
+  }
+  .contact-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-area {
+    width: 30%;
+    background-color: #5c8b8a;
+    text-align: center;
+    padding: 20px;
+  }
+  .left-area .contact {
+    margin-top: 30px;
+    padding: 0 30px;
+    color: white;
+  }
+  
+  .contact h4 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+  }
+  .contact h5 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .contact p {
+    font-size: 14px;
+  }
+  
+  .follow h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+  }
+  .follow h4 {
+    font-size: 10px;
+    margin: 10px 0;
+    color: white;
+  }
+  .follow p {
+    color: white;
+  }
+  
+  .other-details {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .other-details h1 {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px;
+  }
+  .other-details .contpara {
+    padding-left: 60px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 20px;
+    color: rgba(14, 13, 13, 0.993);
+    margin-top: 10px;
+  }
+  .other-details h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 30px;
+    padding: 5px;
+  }
+  #btndiv {
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .btn:active {
+    transform: scale(1.04);
+    background-color: rgb(89, 165, 161);
+  }
+  

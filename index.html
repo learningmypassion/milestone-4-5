@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Resume Input Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+<h1>Enter Your Resume Details</h1>
+
+<form id="resumeForm">
+
+    <!-- Personal Information Section -->
+    <section>
+        <h2>Personal Information</h2>
+        <label for="Name">Full Name:</label>
+        <input type="text" id="Name" placeholder="Enter your full name">
+
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" placeholder="Enter your job title">
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" placeholder="Enter your phone number">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" placeholder="Enter your address">
+    </section>
+
+    <!-- Social Profiles Section -->
+    <section>
+        <h2>Social Profiles</h2>
+        <label for="facebookadd">Facebook:</label>
+        <input type="text" id="facebookadd" placeholder="Enter Facebook URL">
+
+        <label for="instaadd">Instagram:</label>
+        <input type="text" id="instaadd" placeholder="Enter Instagram URL">
+
+        <label for="linkadd">LinkedIn:</label>
+        <input type="text" id="linkadd" placeholder="Enter LinkedIn URL">
+
+        <label for="gitadd">GitHub:</label>
+        <input type="text" id="gitadd" placeholder="Enter GitHub URL">
+    </section>
+
+    <!-- About Me Section -->
+    <section>
+        <h2>About Me</h2>
+        <label for="about">Summary:</label>
+        <textarea id="about" rows="4" placeholder="Write a brief summary about yourself"></textarea>
+    </section>
+
+    <!-- Education Section -->
+    <section>
+        <h2>Education</h2>
+        <label for="matric">Matric:</label>
+        <input type="text" id="matric" placeholder="e.g., Science, School Name, 2014">
+
+        <label for="intermediate">Intermediate:</label>
+        <input type="text" id="intermediate" placeholder="e.g., Science, College Name, 2015">
+
+        <label for="graduation">Graduation:</label>
+        <input type="text" id="graduation" placeholder="e.g., BSc, University Name, 2018">
+
+        <label for="masters">Masters:</label>
+        <input type="text" id="masters" placeholder="e.g., MSc, University Name, 2022">
+
+        <label for="phd">PhD:</label>
+        <input type="text" id="phd" placeholder="e.g., PhD in Subject, University Name, 2024">
+    </section>
+
+    <!-- Work Experience Section -->
+    <section>
+        <h2>Work Experience</h2>
+        <label for="jobTitleExp">Job Title:</label>
+        <input type="text" id="jobTitleExp" placeholder="Enter your job title">
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" placeholder="Enter your company name">
+
+        <label for="startyear">Start Year:</label>
+        <input type="text" id="startyear" placeholder="Enter start year">
+
+        <label for="endyear">End Year:</label>
+        <input type="text" id="endyear" placeholder="Enter end year">
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Skills</h2>
+        <label for="skill1">Skill 1:</label>
+        <input type="text" id="skill1" placeholder="Enter a skill">
+
+        <label for="skill2">Skill 2:</label>
+        <input type="text" id="skill2" placeholder="Enter a skill">
+
+        <label for="skill3">Skill 3:</label>
+        <input type="text" id="skill3" placeholder="Enter a skill">
+
+        <label for="skill4">Skill 4:</label>
+        <input type="text" id="skill4" placeholder="Enter a skill">
+
+        <label for="skill5">Skill 5:</label>
+        <input type="text" id="skill5" placeholder="Enter a skill">
+
+        <label for="skill6">Skill 6:</label>
+        <input type="text" id="skill6" placeholder="Enter a skill">
+    </section>
+
+    <!-- Profile Picture Upload -->
+    <fieldset>
+        <legend>Profile Picture</legend>
+        <div class="form-group">
+            <label for="profilePic">Upload Profile Picture:</label>
+            <input type="file" id="profilePic">
+        </div>
+    </fieldset>
+
+    <!-- Submit Button -->
+    <button type="submit" id="generateResumebtn">Generate Resume</button>
+    
+    
+  
+</form>
+
+<script src="resumeGenerator.js"></script>
+<script src="../../manipulation.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
